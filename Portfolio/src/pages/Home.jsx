@@ -149,7 +149,7 @@ function Home() {
               {/* Image Container */}
               <div className="relative">
                 <img 
-                  src="" 
+                  src={'/assets/gouri-image.jpg'} 
                   alt="Gouri Krishna VK" 
                   className={`w-80 h-80 lg:w-96 lg:h-96 object-cover rounded-[2rem] transition-all duration-1000 ${
                     isHovered ? 'scale-[1.03] brightness-110' : ''
